@@ -35,10 +35,9 @@ Vrijwilligers van doof&events hebben de mogelijkheid om deze aanvragen te monito
 Deze applicatie is gebouwd met behulp van:
 
 - **PHP**: Voor de back-end logica.
-- **MySQL**: Voor het beheren van de database.
+- **MySQL Workbench**: Voor het beheren van de database.
 - **DDEV**: Voor het lokaal ontwikkelen van de applicatie.
-- **Bootstrap/Tailwind**: Voor de front-end lay-out.
-- **Chart.js**: Voor het visualiseren van statistieken.
+- **CSS**: Voor de front-end lay-out.
 - **ChatGPT**: Voor ondersteuning en begeleiding tijdens het ontwikkelproces.
 
 ## Contact

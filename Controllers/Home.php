@@ -17,10 +17,20 @@ class HomeController extends BaseController {
 
     public static function edit ($id) {
         $user = User::find($id);
-        self::loadView('/edit', [
+        self::loadView('/users/edit', [
             'title' => 'Edit user',
             'user' => $user
         ]);
+    }
+
+    public static function get_users() {
+        $users = User::all();
+        header("Content-type:application/json");
+
+        echo json_encode($users);
+
+
+        exit;
     }
 
 }
